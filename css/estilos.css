@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+#pie{
+    background-color: #222;
+    border-color: #080808;
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: table-row;
+    height: 10px;
+    width: 100%;
+}
+article{
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    
+    background-color: #ddd;
+    border: 2px #ddd solid;
+    border-radius: 6px;
+}
+#turnos{
+    display: inline;
+    width: 50%;
+}
+#detalles{
+    display: inline;
+    width: 50%;
+}
+
+.parallax{                
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contenidoParallax{
+    height:300px; 
+    background-color: #096c47;
+}
+
+#contenidoParallax h2{
+    color:whitesmoke; 
+    font-weight: 600;
+    margin-top: 0
+}
+
+#contenidoParallax div p{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#contenidoParallax div ul li{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#textoParallax{
+    background-color: rgba(222, 222, 222, 0.2);
+    height: 175px;
+    line-height: 30px;
+}
+#containerParallax{
+    display: table
+}
+#textoParallax{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+/************************Redes Sociales / Footer***********************/
+.container{
+    width: 100%
+}
+
+.ul.socialIcons {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.socialIcons li {
+    background: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 2em;
+    overflow:hidden;
+}
+.socialIcons li a {
+    display: block;
+    padding: .5em;
+    max-width: 2.3em;
+    min-width: 2.3em;
+    height: 2.3em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    transition:.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+.socialIcons li i {
+    margin-right:.5em;
+}
+.socialIcons li:hover a {
+    max-width:200px;
+    padding-right:1em;
+}
+.socialIcons .facebook {
+    background: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+}
+.socialIcons .twitter {
+    background: #00aced;
+    box-shadow: 0 0 16px #00aced;
+}
+.socialIcons .instagram {
+    /*background: #cd486b;*/
+    background: #5851db;
+    background: -moz-linear-gradient(top,  #5851db 0%, #833ab4 27%, #833ab4 27%, #c13584 50%, #f77737 100%);
+    background: -webkit-linear-gradient(top,  #5851db 0%,#833ab4 27%,#833ab4 27%,#c13584 50%,#f77737 100%);
+    background: linear-gradient(to bottom,  #5851db 0%,#833ab4 27%,#833ab4 27%,#c13584 50%,#f77737 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5851db', endColorstr='#f77737',GradientType=0 );
+    box-shadow: 0 0 16px #cd486b;
+}
+.socialIcons .pinterest {
+    background: #c92228;
+    box-shadow: 0 0 16px #c92228;
+}
+.socialIcons .steam {
+    background: #666666;
+    box-shadow: 0 0 16px #666666;
+}
+
+/********************CONTACTENOS*******************/
+.first-box{
+    padding:10px;
+    background:#9C0;
+}
+.second-box{
+    padding:10px; 
+    background:#39F;
+}
+.third-box{
+    padding:10px;
+    background:#F66;
+}
+.fourth-box{
+    padding:10px;
+    background:#6CC;
+}
+
+/********************LOGIN*******************/
+.form-signin
+{
+    max-width: 60%;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/************** SPINNER ModalEditarSocio ****************/
+@media ( max-width: 585px ) {
+    .input-group span.input-group-btn,.input-group input,.input-group button{
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .input-group {
+        position: relative;   
+    }
+    .input-group span.data-up{
+        position: absolute;
+        top: 0;
+    }
+    .input-group span.data-dwn{
+        position: absolute;
+        bottom: 0;
+    }
+    .form-control.text-center {
+        margin: 34px 0;
+    }
+    .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+        margin-left:0;
+    }
+}
+/************** Tarjeta de Crédito ****************/
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
